@@ -56,3 +56,106 @@ This project is built with:
 ## 📦 Project Structure
 
 /app
+/api
+/dashboard
+/(site)
+
+/components
+/canvas
+/inspector
+/project-tree
+/ai-panel
+/code-panel
+/ui
+
+/lib
+/ai
+/schema
+/codegen
+/design-system
+/utils
+db.ts
+
+/prisma
+schema.prisma
+
+/public
+/styles
+/hooks
+/types
+
+Code
+
+---
+
+## 🛠️ Getting Started
+
+### **1. Install dependencies**
+npm install
+
+Code
+
+### **2. Set up environment variables**
+Create a `.env` file:
+
+DATABASE_URL="your_database_url"
+OPENAI_API_KEY="your_api_key"
+
+Code
+
+### **3. Run database migrations**
+npx prisma migrate dev
+
+Code
+
+### **4. Start the development server**
+npm run dev
+
+Code
+
+Your app will be live at:
+
+http://localhost:3000
+
+Code
+
+---
+
+## 🧱 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | Next.js, React, Tailwind, ShadCN |
+| Backend | Next.js API Routes, Node.js |
+| Database | PostgreSQL (Supabase/Neon) |
+| ORM | Prisma |
+| AI | OpenAI / Anthropic |
+| State | Zustand |
+| Deployment | Vercel |
+
+---
+
+## 📘 Roadmap
+
+- [ ] Canvas editor MVP  
+- [ ] Schema engine v1  
+- [ ] AI orchestration engine  
+- [ ] Code generator v1  
+- [ ] Design system intelligence  
+- [ ] Marketplace v1  
+- [ ] Deployment system  
+- [ ] Enterprise features  
+
+---
+
+## 🧑‍💻 Author
+
+**Aziz Loku**  
+Founder of Jomboloko Builder  
+Calgary, Alberta, Canada
+
+---
+
+## 📄 License
+
+MIT License
